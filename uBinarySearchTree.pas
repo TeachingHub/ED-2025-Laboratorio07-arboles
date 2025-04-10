@@ -25,6 +25,15 @@ type
   procedure get_hi(a: tBinarySearchTree; var b: tBinarySearchTree);
   procedure get_hd(a: tBinarySearchTree; var b: tBinarySearchTree);
 
+  // Ejercicio 2.1
+  function mismos_nodos_izq_y_der(a: tBinarySearchTree): boolean;
+  // Ejercicio 2.2
+  function niveles_completos(a: tBinarySearchTree): boolean;
+  // Ejercicio 2.3
+  procedure add_tree(var a: tBinarySearchTree; b: tBinarySearchTree);
+  // Ejercicio 2.4
+  function get_multiplicidad(a: tBinarySearchTree; clave: integer): integer;
+
 implementation
 
 uses
